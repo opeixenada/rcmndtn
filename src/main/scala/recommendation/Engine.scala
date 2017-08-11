@@ -68,7 +68,7 @@ object Engine {
     * @return similarity rate (`Double`)
     */
   def calculateSimilarity(attrs1: Attributes, attrs2: Attributes): Double = {
-    val similarAttributes = attrs1.toSeq.collect {
+    val similarAttributes = attrs1.collect {
       case (attrName, attrValue1) if attrs2.get(attrName).contains(attrValue1) => attrName
     }
 
