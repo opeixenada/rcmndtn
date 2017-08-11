@@ -1,2 +1,18 @@
 *.class
 *.log
+
+target
+*/target
+
+# Idea IDE stuff #
+##################
+*.iml
+*.ec
+*.ipr
+*.iws
+.idea/
+*/.idea
+
+# Mac OS stuff #
+################
+.DS_Store
