@@ -4,10 +4,13 @@ Calculates similarity of articles identified by SKU based on their attributes va
  of matching attributes is the most important metric for defining similarity. In case of a draw,
   attributes with names higher in alphabet (a is higher than z) are weighted with heavier weight.
 
-### Launch
+### CLI launch
 
 ```
 sbt "run <path to input file>"
+
+Starting engine...
+Enter SKU to get a list of recommendations >
 ```
 
 ### Tests
